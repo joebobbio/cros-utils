@@ -3,7 +3,7 @@ This repository contains several useful scripts to help you activate experimenta
 *Disclaimer: your Chromebook must be [in Developer mode to run my scripts.](https://chromium.googlesource.com/chromiumos/docs/+/master/developer_mode.md) Google does not support modifications you make to the system. I am not responsible for hardware, software, or security issues you may run into.*
 
 # Instructions
-1. [Download my scripts here and extract it.](https://github.com/joebobbio/cros-scripts/releases/)
+1. [Download my script here and extract it.](https://github.com/joebobbio/cros-scripts/releases/)
 1. Launch crosh by pressing Ctrl-Alt-T.
 1. Type and enter `shell` into crosh.
 1. Copy and paste `sudo install -Dt /usr/local/bin -m 755 ~/Downloads/[name_of_script].sh` into crosh.
