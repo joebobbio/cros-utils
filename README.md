@@ -13,3 +13,6 @@ If done correctly, this is what your crosh output should look like.
 
 # Running the scripts
 Once you’ve finished installing the scripts, you can execute them in any crosh shell with `scriptname.sh`
+
+# Credits
+Thanks to [DennisLfromGA](https://github.com/DennisLfromGA) for helping revise the light mode script, and Kent (github unknown) for helping me keep this readme up to spec.
