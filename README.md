@@ -4,7 +4,7 @@ This repository contains several useful scripts to help you activate experimenta
 
 # Instructions
 1. Download my scripts from the [releases tab](https://github.com/joebobbio/cros-scripts/releases), then extract the ones you want to use.
-1. Launch `crosh` with Ctrl-Alt-T
+1. Launch crosh with Ctrl-Alt-T
 1. Type and enter `shell` into crosh to gain shell access to Chrome OS.
 1. Copy and paste `sudo install -Dt /usr/local/bin -m 755 ~/Downloads/[name_of_script].sh` into crosh.
 
@@ -12,4 +12,4 @@ If done correctly, there will be no output.
 ![output](/assets/Screenshot_2020-10-11_at_11.55.41_PM.png)
 
 # Running the scripts
-Once you’ve finished installing the scripts, you can execute them in any `crosh` shell with `scriptname.sh`
+Once you’ve finished installing the scripts, you can execute them in any crosh shell with `scriptname.sh`
