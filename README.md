@@ -8,7 +8,7 @@ This repository contains several useful scripts to help you activate experimenta
 1. Type and enter `shell` into crosh to gain shell access to Chrome OS.
 1. Copy and paste `sudo install -Dt /usr/local/bin -m 755 ~/Downloads/[name_of_script].sh` into crosh.
 
-If done correctly, this will be the output.
+If done correctly, there will be no output.
 ![output](/assets/Screenshot_2020-10-11_at_11.55.41_PM.png)
 
 # Running the scripts
