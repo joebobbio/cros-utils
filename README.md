@@ -1,14 +1,15 @@
-# Introduction
-Hello! You're probably here because you want to enable experimental features in Google's Chrome OS, but don't really know how to go about enabling them, or just want a quick and easy way to enable them. If you have anything new you want to see added/want to contribute, [open a pull request.](https://github.com/joebobbio/useful-scripts/pulls) If you spot a bug, or encounter an issue, [open an issue.](https://github.com/joebobbio/useful-scripts/issues)
+This repository contains several useful scripts to help you activate experimental Chrome OS features not exposed in chrome://flags. If you have any requests, spot an issue, or want to contribute, please file a [pull request.](https://github.com/joebobbio/cros-scripts/pulls)
 
-# Prerequisites
-The scripts in the `flags` folder require [Developer Mode](https://chromium.googlesource.com/chromiumos/docs/+/master/developer_mode.md) and [rootfs verification to be disabled.](https://chromium.googlesource.com/chromiumos/docs/+/master/developer_mode.md#disable-verity)
-**Note that disabling rootfs verification can result in** ***severe data loss and potential system software damage if you make the wrong move!*** **Proceed at your own risk!**
+*Disclaimer: your Chromebook must be [in Developer mode to run my scripts.](https://chromium.googlesource.com/chromiumos/docs/+/master/developer_mode.md) Google does not support modifications you make to the system. I am not responsible for hardware, software, or security issues you may run into.*
 
-# Installing the scripts
-To ensure compatibility, you should install the scripts to your `/usr/local/bin` folder. This can be easily done with this command, `sudo install -Dt /usr/local/bin -m 755 ~/Downloads/scriptname.sh`
-**Replace "scriptname" with the name of the script you are trying to install!**
-The command will have no output if it executes successfully.
+# Instructions
+1. Download my scripts from the [releases tab](https://github.com/joebobbio/cros-scripts/releases), then extract the ones you want to use.
+1. Launch `crosh` with Ctrl-Alt-T
+1. Type and enter `shell` into crosh to gain shell access to Chrome OS.
+1. Copy and paste `sudo install -Dt /usr/local/bin -m 755 ~/Downloads/[name_of_script].sh` into crosh.
+
+If done correctly, this will be the output.
+![output](/assets/Screenshot_2020-10-11_at_11.55.41_PM.png)
 
 # Running the scripts
-Once you've installed the scripts, you can then execute them with `scriptname.sh`. Once you do that, answer prompt(s) (if any). Enjoy the new features!
+Once you’ve finished installing the scripts, you can execute them in any `crosh` shell with `scriptname.sh`
