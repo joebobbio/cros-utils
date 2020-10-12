@@ -11,4 +11,4 @@ To ensure compatibility, you should install the scripts to your `/usr/local/bin`
 The command will have no output if it executes successfully.
 
 # Running the scripts
-Once you've installed the scripts, you can then execute them with `scriptname.sh`. Once you do that, answer prompt(s) (if any) like a good person. Enjoy the new features!
+Once you've installed the scripts, you can then execute them with `scriptname.sh`. Once you do that, answer prompt(s) (if any). Enjoy the new features!
