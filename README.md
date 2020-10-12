@@ -4,7 +4,7 @@ This repository contains several useful scripts to help you activate experimenta
 
 # Instructions
 1. [Download my scripts here and extract it.](https://github.com/joebobbio/cros-scripts/releases/)
-1. Launch crosh by pressing Ctrl-Alt-T
+1. Launch crosh by pressing Ctrl-Alt-T.
 1. Type and enter `shell` into crosh.
 1. Copy and paste `sudo install -Dt /usr/local/bin -m 755 ~/Downloads/[name_of_script].sh` into crosh.
 
