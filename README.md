@@ -1,4 +1,4 @@
-This repository contains several useful scripts to help you activate experimental Chrome OS features not exposed in chrome://flags. If you have any requests, spot an issue, or want to contribute, please file a [pull request.](https://github.com/joebobbio/cros-scripts/pulls)
+This repository contains several useful scripts to help you activate experimental Chrome OS features not exposed in Chrome flags. If you have any requests, spot an issue, or want to contribute, please file a [pull request.](https://github.com/joebobbio/cros-scripts/pulls)
 
 *Disclaimer: your Chromebook must be [in Developer mode to run my scripts.](https://chromium.googlesource.com/chromiumos/docs/+/master/developer_mode.md) Google does not support modifications you make to the system. I am not responsible for hardware, software, or security issues you may run into.*
 
