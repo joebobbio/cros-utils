@@ -1,4 +1,4 @@
-**My only current script is now obsolete, but you are free to contribute any scripts that you have by making a pull request.**
+***My only current script is now obsolete, but you are free to contribute any scripts that you have by making a pull request.***
 
 This repository contains several useful scripts to help you activate experimental Chrome OS features not exposed in Chrome flags. If you have any requests, spot an issue, or want to contribute, please file a [pull request.](https://github.com/joebobbio/cros-scripts/pulls)
 
